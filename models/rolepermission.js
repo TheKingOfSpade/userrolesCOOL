@@ -25,7 +25,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'RolePermission',
-    tableName: 'roles_role_permissions',
+    tableName: 'roles_role_permssion',
     timestamps: false
   });
   return RolePermission;

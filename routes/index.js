@@ -7,9 +7,9 @@ router.get('/accounting', pageController.renderAccounting);
 router.get('/marketing', pageController.renderMarketing);
 router.get('/sales',pageController.renderSales);
 router.get('/hr', pageController.renderHR);
+router.get('/login', userController.renderLoginForm);
 router.get('/register', userController.renderRegistrationForm);
 router.post('/register', userController.registerUser);
 module.exports = router;
-
 
 router.get('/login', userController.renderLoginForm);
